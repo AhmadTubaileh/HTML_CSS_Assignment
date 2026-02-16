@@ -67,9 +67,11 @@ a:hover{
 }
 
 .main-content{
-    flex: 1;
+    flex:1 ;
 }
 
+
+/* Footer -----------------------------------------------------*/
 
 footer{
     background-color: #1E1E1E;
@@ -101,7 +103,7 @@ footer{
     flex: 1;
     min-width: 200px;
     padding-left: 20px;
-    /* background-color: #8a1f1f; */
+     /* background-color: #8a1f1f;   */
 }
 
 .about{
@@ -109,18 +111,29 @@ footer{
     text-align: center;
 }
 
-.rights{
+.rights-text{
     text-align: center;
     font-size: 14px;
     color: #888;
-}
-.follow{
-    font-size: 18px;
-    
 }
 
 .customer-services{
     text-align: center;
     margin-bottom: auto;
-    margin-right: 50px;
+    margin-left: 200px;
+}
+
+.social-media{
+    text-align: center;
+    margin-bottom: auto;
+    margin-right: 200px;
+}
+
+ul{
+    list-style: none;
+    margin-right:50px ;
+}
+
+li{
+    margin-bottom: 10px;
 }
