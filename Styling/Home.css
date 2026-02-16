@@ -1,0 +1,126 @@
+
+body{
+    background-color: #170120;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.first-line{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+}
+.logo-button{
+    background-color: transparent;
+    border: none;
+    cursor:pointer;
+}
+
+.logo-text{
+    color: rgb(130, 20, 204);
+    justify-self:flex-end;
+}
+
+.logo-img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.login-signup-search{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin:10px;
+    font-size: 20px;
+}
+
+a:hover{
+    color: rgb(130, 20, 204);
+}
+
+.search-input{
+    padding: 5px;
+    border: #00E0FF solid 1px;
+    border-radius: 7px;
+    background-color: #1E1E1E;
+    color: white;
+    margin-right: 20px;
+}
+
+.search-input:focus{
+    outline: none;
+    border-color: #a82fd8;
+}
+
+.main-content{
+    flex: 1;
+}
+
+
+footer{
+    background-color: #1E1E1E;
+    color: white;
+    padding: 20px;
+}
+.social-icon{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
+
+.X,.insta{
+    border-radius: 50%;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    flex: 1;
+    min-width: 200px;
+    padding-left: 20px;
+    /* background-color: #8a1f1f; */
+}
+
+.about{
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.rights{
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+}
+.follow{
+    font-size: 18px;
+    
+}
+
+.customer-services{
+    text-align: center;
+    margin-bottom: auto;
+    margin-right: 50px;
+}
