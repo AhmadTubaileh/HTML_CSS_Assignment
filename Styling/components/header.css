@@ -6,6 +6,9 @@ body{
     min-height: 100vh;
 }
 
+header{
+    background:linear-gradient(90deg,#00E0FF, #6c3bff);
+}
 
 .first-line{
     display: flex;
@@ -23,6 +26,7 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    padding-bottom: 20px;
     margin-bottom: 30px;
 }
 
